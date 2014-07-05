@@ -1,0 +1,29 @@
+// Your custom SCSS should be written here...
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+$font-stack: montserrat, sans-serif;
+// This defines the color pallete used within the site...
+$main:#2E49FF;
+$secondary:#434B7F;
+$third:#7A8BFF;
+$fourth:#29337F;
+
+/*---------------------------------------------------------------------------------*/
+h1,h2,h3,h4,h5,h6,body {
+	font-family: $font-stack;	
+}
+
+.centered {
+	align:centered;
+}
+
+.onr {
+	background-color: $main;
+	height: 100%;
+}
+
+.on1 {
+	background-color: $third;
+	height: 100%;
+}
