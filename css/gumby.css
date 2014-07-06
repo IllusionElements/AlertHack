@@ -1690,7 +1690,7 @@ h1, h2, h3, h4, h5, h6, body, a { font-family: montserrat, sans-serif; color: #f
 
 .onr { /*background-color: $main;*/ height: 100%; color: #fff; }
 
-.on1 { background: url(img/grid.jpg); height: 100%; position: fixed; }
+.on1 { background: url(img/grid.jpg); height: 100%; }
 
 .down { background: transparent url(img/down.png) center 9px no-repeat; background-size: 14px 14px !important; border: 3px solid #fff; border-radius: 30px; height: 30px; width: 30px; position: absolute; bottom: 200px; z-index: 99; display: block; left: 0; margin: 0 auto; text-align: left !important; cursor: pointer; margin-left: 40rem; }
 
