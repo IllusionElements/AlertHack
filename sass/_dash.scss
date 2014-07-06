@@ -13,6 +13,7 @@ body#mine {
 	width: 100%;
 	box-shadow: 0px 2px  .5px #aeaeac;
 	margin-bottom: .5rem;
+	margin-top: .75rem;
 	border-radius: 2px;
 			p {
 				text-align: center;
@@ -27,4 +28,8 @@ body#mine {
 height: 100px;
 margin-bottom: 1em;
 margin-right: -3rem;
+}
+
+.row {
+	background-color: #E9EBEE;
 }
