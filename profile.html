@@ -39,6 +39,30 @@
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
 	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+    ['Your Score', 'KWh', {role: 'style' }, { role: 'annotation' }],
+    ['Your Score',  375, 'yellow', 375],
+    ['Possible Improvement',  220, 'green', 220]
+  ]);
+
+        var options = {
+          title: 'Company Performance',
+          vAxis: {title: 'Year',  titleTextStyle: {color: 'red'}}
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, {title:"Energy Footprint (lower is better)",
+            width:600, height:400,
+            vAxis: {title: ""},
+            hAxis: {title: "KWh per square meter"}});
+      }
+    </script>
 </head>
 
 <body id="mine">
@@ -55,8 +79,11 @@
 			<div class="two columns"><a href="Achievement.php">Achievements</a></div>
 				</div>
 	<div class="row">
-		<div class="twelve columns col1 centered">
+		<div class="twelve columns col1 centered" style="padding: 20px;">
 			<p>According to your data your building is 90% efficient!</p>
+
+				
+    <div id="chart_div" style="width: 900px; height: 400px;" ></div>
 	</div>
 		</div>
 <div class="row sixteen colgrid">
