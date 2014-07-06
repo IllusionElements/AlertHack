@@ -1688,7 +1688,9 @@ body#home { color: #fff; }
 
 h1, h2, h3, h4, h5, h6, body, a { font-family: montserrat, sans-serif; }
 
-.centered { align: centered; }
+.field { list-style: none; }
+
+.center { text-align: center; padding-top: 1rem; }
 
 .onr { /*background-color: $main;*/ height: 100%; color: #fff; }
 

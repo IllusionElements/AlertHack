@@ -39,9 +39,18 @@
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
 	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="responsiveslides.min.js"></script>
+<script type="text/jQuery">$(document).ready(function(){
+  $('.bxslider').bxSlider();
+  auto: true,
+  autocontrols: true
+});
+</script>
 </head>
 
-<body id="home">
+<body id="home">            	
+
 <div class="wrapper bh onr">
 	<section class="row sect_head">	
 		<div class="fourteen colgrid">
@@ -50,11 +59,16 @@
 <source src="hv_vid.webm" type="video/webm">
 <source src="hv_video.mp4" type="video/mp4">
 </video>
+	
+
     			<h1 style="color:#fff;">Here's Some Cool Facts XYZ</h1> 
     				<h4 style="color:#fff;">Lorem P ipsum, de ipossum 	Vel quas consul nominavi ad, liber solet constituam vis te. Qui at homero urbanitas disputando, his in quando euripidis. Sanctus persequeris vix ea.</h4>
-    		<div class="centered">
-   				<a href="#"  gumby-goto="[data-target='welcome']" class="skip"><div class="down"></div></a>
-   				</div>
+		<div class="center">
+			<p class="skiplink medium primary"><a href="about.html">Learn More</a></p>
+
+			<p style="text-align:center;"> OR </p>
+    				<p class="skiplink medium secondary"><a href="#" gumby-goto="[data-target='survey']">Complete our Survey!</a></p>
+</div>
 			</div>
 		</div>
 	</div>
@@ -62,22 +76,15 @@
 </section>
 
 
-<div>
-<div class="on1">
-<div class="row" data-target="welcome">
-		<h1 style="color:#fff;">Welcome to SIS</h1>
-		<div><span><img src="css/img/coffee.png">
-			<h4 style="color:#fff;">Your own personal journey across SIS is about to start, just click the button below and by the time your coffee is down brewing you wil be done! </h4></span>
-			</br>
-			<p class="skiplink medium secondary"><a href="#" gumby-goto="[data-target='survey']">Complete our Survey!</a></p>
-
-	</div>
-	</div>
 	</div>
 
 </div> 
 	<div class="surveys">
 	<div class="row" data-target="survey">
+	<h1 style="color:#fff;">Welcome to SIS</h1>
+		<div><span><img src="css/img/coffee.png">
+			<h4 style="color:#fff;">Your own personal journey across SIS is about to start, just click the button below and by the time your coffee is down brewing you wil be done! </h4></span>
+			</br>
 		<h4 style="color:#fff;">What is your Gas meter reading?</h4>
 		<div class="field">
   <input class="input" type="text" placeholder="ex: 35401" />
@@ -93,7 +100,10 @@
   <input class="input" type="text" placeholder="ex: 35401 sq. ft" />
 </div>
 </br>
-<h4 style="color:#fff;"What is your heating type?</h4>
+<h4 style="color:#fff;">What is your heating type?</h4>
+
+<hr>
+
 		<li class="field">
   <label class="radio checked" for="radio1">
     <input name="radio" id="radio1" value="1" type="radio" checked="checked">
@@ -104,7 +114,7 @@
     <span></span> Electric
   </label>
 </li>
-
+gi
 <h4 style="color:#fff;">Please List below your latest Utilities useage</h4>
 <span><p>Heat:</p></span><div class="field">
   <input class="input" type="text" placeholder="ex: 35401" />
@@ -177,6 +187,10 @@
 	<script src="js/libs/ui/jquery.validation.js"></script>
 	<script src="js/libs/gumby.init.js"></script>
 	<script src="js/libs/jquery.easing.1.3.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/libs/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
 
 	<!--
 	Google's recommended deferred loading of JS
