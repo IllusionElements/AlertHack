@@ -51,12 +51,16 @@
 
 <body id="home">            	
 
-
-<div class="wrapper bh onr parallax">
-	<section class="row sect_head bg">	
+<div class="wrapper bh onr">
+	<section class="row sect_head">	
 		<div class="fourteen colgrid">
-  			<div class="row bg">
-  				<div class="parallax" gumby-parallax="0.5" style="background-position: 50% "></div>
+  			<div class="row">
+    			<video autoplay loop poster="bg.jpg" id="bgvid" class="parallax">
+<source src="hv_vid.webm" type="video/webm">
+<source src="hv_video.mp4" type="video/mp4">
+</video>
+	
+
     			<h1 style="color:#fff;">Make your building Energy Efficient!</h1> 
     				<h4 style="color:#fff;">Our site will help your buidling to save energy, money and the environment!</h4><br/>
     				Some of the benefits of using our site:</div><br>
@@ -125,23 +129,6 @@ What is your heating type?<br/>
       <input class="input" id="text2" type="text" placeholder="A1B 2C3" />
     </li>
 
-</fieldset>
-  <legend>Fill in your Information</legend>
-  <ul>
-    <li class="field">
-      <label class="inline" for="text1">Email:<span></span></label>
-      <input class="wide text input" id="text1" type="text" placeholder="johnsmith@example.com" />
-    </li>
-    <li class="field">
-      <label class="inline" for="text2">Postal Code: <span></span></label>
-      <input class="wide password input" id="text2" type="password" placeholder="A1B 2C3" />
-    </li>
-  </ul>
-    <li class="field">
-      <label class="inline" for="text2">Password:<span></span> </label>
-      <input class="wide password input" id="text2" type="password" placeholder="password" />
-    </li>
-  </ul>
 </fieldset>
 
 <div class="medium secondary oval btn"><a href="profile.html">Submit</a></div>
