@@ -59,17 +59,88 @@
 		</div>
 	</div>
 </div>
-
 </section>
 
-<div class="wrapper on1">
+
+
+<div class="on1">
 <div class="row" data-target="welcome">
 		<h1>Welcome to SIS</h1>
 		<div><span><img src="css/img/coffee.png">
 			<h4>Your own personal journey across SIS is about to start, just click the button below and by the time your coffee is down brewing you wil be done! </h4></span>
+			</br>
+			<p class="skiplink medium secondary"><a href="#" gumby-goto="[data-target='survey']">Complete our Survey!</a></p>
+
 	</div>
 	</div>
 	</div>
+
+
+	<div class="surveys">
+	<div class="row" data-target="survey">
+		<h4>What is your Gas meter reading?</h4>
+		<div class="field">
+  <input class="input" type="text" placeholder="ex: 35401" />
+</div>		
+</br>
+<h4>What is your electricity meter reading?</h4>
+		<div class="field">
+  <input class="input" type="text" placeholder="ex: 35401" />
+</div>
+</br>
+<h4>What is your building's square footage</h4>
+		<div class="field">
+  <input class="input" type="text" placeholder="ex: 35401 sq. ft" />
+</div>
+</br>
+<h4>What is your heating type?</h4>
+		<li class="field">
+  <label class="radio checked" for="radio1">
+    <input name="radio" id="radio1" value="1" type="radio" checked="checked">
+    <span></span> Gas
+  </label>
+  <label class="radio" for="radio2">
+    <input name="radio" id="radio2" value="2" type="radio">
+    <span></span> Electric
+  </label>
+</li>
+
+<h4>Please List below your latest Utilities useage</h4>
+<span><p>Heat:</p></span><div class="field">
+  <input class="input" type="text" placeholder="ex: 35401" />
+</div>		
+<span><p>Gas:</p></span><div class="field">
+  <input class="input" type="text" placeholder="ex: 35401" />
+</div>		
+<span><p>Electricity:</p></span><div class="field">
+  <input class="input" type="text" placeholder="ex: 35401" />
+</div>		
+
+<fieldset>
+  <legend>Fill in your Information</legend>
+  <ul>
+    <li class="field">
+      <label class="inline" for="text1">Email:<span></span></label>
+      <input class="wide text input" id="text1" type="text" placeholder="johnsmith@example.com" />
+    </li>
+    <li class="field">
+      <label class="inline" for="text2">Postal Code: <span></span></label>
+      <input class="wide password input" id="text2" type="password" placeholder="A1B 2C3" />
+    </li>
+  </ul>
+    <li class="field">
+      <label class="inline" for="text2">Password:<span></span> </label>
+      <input class="wide password input" id="text2" type="password" placeholder="password" />
+    </li>
+  </ul>
+</fieldset>
+
+<div class="medium secondary oval btn"><a href="profile.html">Submit</a></div>
+<br>
+<br>
+<br>
+
+
 	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
 	<!-- 2.0 for modern browsers, 1.10 for .oldie -->
 	<script>
