@@ -10,9 +10,13 @@ $third:#7A8BFF;
 $fourth:#29337F;
 
 /*---------------------------------------------------------------------------------*/
+body#home {
+	color: #fff;
+}
+
 h1,h2,h3,h4,h5,h6,body,a {
 	font-family: $font-stack;	
-	color: #fff;
+	
 }
 
 .centered {
