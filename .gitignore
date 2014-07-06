@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Numerous always-ignore extensions
 *.bak
 *.diff
@@ -42,3 +43,6 @@ dwsync.xml
 .svn
 .CVS
 .idea
+=======
+jquery.bxslider.zip
+>>>>>>> c962ca6e1b47ba9488d9103d5b681f12d85dabe0
