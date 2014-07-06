@@ -1715,7 +1715,13 @@ body#mine { background-color: #ccc; color: #000; }
 
 .x1 { background: url(img/profile.jpg) no-repeat; height: 100px; margin-bottom: 1em; margin-right: -3rem; }
 
-.row { background-color: #E9EBEE; }
+.x3 { background-color: #E9EBEE; }
+
+.btn1 { -moz-box-shadow: inset 0px 1px 2px 0px #ffa1a1; -webkit-box-shadow: inset 0px 1px 2px 0px #ffa1a1; box-shadow: inset 0px 1px 2px 0px #ffa1a1; background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #de1d1d), color-stop(1, #cf1f1f)); background: -moz-linear-gradient(center top, #de1d1d 5%, #cf1f1f 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#de1d1d', endColorstr='#cf1f1f'); background-color: #de1d1d; -webkit-border-top-left-radius: 0px; -moz-border-radius-topleft: 0px; border-top-left-radius: 0px; -webkit-border-top-right-radius: 0px; -moz-border-radius-topright: 0px; border-top-right-radius: 0px; -webkit-border-bottom-right-radius: 0px; -moz-border-radius-bottomright: 0px; border-bottom-right-radius: 0px; -webkit-border-bottom-left-radius: 0px; -moz-border-radius-bottomleft: 0px; border-bottom-left-radius: 0px; text-indent: 0; border: 1px solid #eb343d; display: inline-block; color: #ffffff; font-family: Arial; font-size: 15px; font-weight: bold; font-style: normal; height: 45px; line-height: 45px; width: 200px; text-decoration: none; text-align: center; text-shadow: 1px 1px 0px #cc1616; }
+
+.btn1:hover { background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #cf1f1f), color-stop(1, #de1d1d)); background: -moz-linear-gradient(center top, #cf1f1f 5%, #de1d1d 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf1f1f', endColorstr='#de1d1d'); background-color: #cf1f1f; }
+
+.btn1:active { position: relative; top: 1px; }
 
 .navbar { width: 100%; display: table; border: 1px solid #1d692d; margin-bottom: 20px; background: #5dbb73; /* Change this to suit the color theme of your site */ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
 
